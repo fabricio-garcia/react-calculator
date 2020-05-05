@@ -37,8 +37,6 @@
   </p>
 </p>
 
-![weather_app](#)
-
 ## Features
 
 - Basic React app
@@ -94,7 +92,7 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 
 ## Live Demo
 
-[to-be-added-later](#)
+[React Calculator](https://react-calc-m.herokuapp.com/)
 
 ## Automated tests
 
