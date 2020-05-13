@@ -15,8 +15,12 @@ class ButtonPanel extends React.Component {
     return this.names;
   }
 
-  renderButton(name) {
-    this.button = <Button value={name} />;
+  renderButton = (value, index, group) => {
+    const style = { backgroundColor: '#e0e0e0', flex: '1' };
+    const { length } = group;
+    const wide = value === '0';
+    this.button = index < length - 1 ? <Button value={value} color={style} wide={wide} />
+      : <Button value={value} color={{ flex: '1' }} wide={wide} />;
     return this.button;
   }
 
