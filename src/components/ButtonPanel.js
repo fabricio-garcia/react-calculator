@@ -26,20 +26,20 @@ class ButtonPanel extends React.Component {
   render() {
     return (
       <div className="container">
-        <div className="row">
-          { this.groups['1'].map(name => this.renderButton(name)) }
+        <div className="row groups">
+          { this.groups['1'].map(this.renderButton) }
         </div>
-        <div className="row">
-          { this.groups['2'].map(name => this.renderButton(name)) }
+        <div className="row groups">
+          { this.groups['2'].map(this.renderButton) }
         </div>
-        <div className="row">
-          { this.groups['3'].map(name => this.renderButton(name)) }
+        <div className="row groups">
+          { this.groups['3'].map(this.renderButton) }
         </div>
-        <div className="row">
-          { this.groups['4'].map(name => this.renderButton(name)) }
+        <div className="row groups">
+          { this.groups['4'].map(this.renderButton) }
         </div>
-        <div className="row">
-          { this.groups['5'].map(name => this.renderButton(name)) }
+        <div className="row groups">
+          { this.groups['5'].map(this.renderButton) }
         </div>
       </div>
     );
