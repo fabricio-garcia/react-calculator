@@ -92,7 +92,7 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 
 ## Live Demo
 
-[React Calculator](https://react-calc-m.herokuapp.com/)
+[React Calculator](https://react-calc-microverse.herokuapp.com/)
 
 ## Automated tests
 
