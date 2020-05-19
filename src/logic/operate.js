@@ -19,9 +19,11 @@ const operate = (numberOne, numberTwo, operation) => {
       result = x.times(y);
       break;
     case operations.division:
-      if (y !== 0) {
+      if (y.toString() !== '0') {
         result = x.div(y);
         break;
+      } else {
+        result = 'Error';
       }
       break;
     case operations.percentage:
