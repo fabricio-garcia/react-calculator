@@ -23,7 +23,10 @@ class App extends React.Component {
   }
 
   render() {
-    const { total, next } = this.state;
+    let { total, next } = this.state;
+    if (next == null) {
+      next = '0';
+    }
     return (
       <div id="app">
         <Display result={total || next} />
