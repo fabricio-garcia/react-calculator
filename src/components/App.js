@@ -23,6 +23,7 @@ class App extends React.Component {
   }
 
   render() {
+    // eslint-disable-next-line prefer-const
     let { total, next } = this.state;
     if (next == null) {
       next = '0';
