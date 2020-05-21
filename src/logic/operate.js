@@ -7,6 +7,7 @@ const operate = (numberOne, numberTwo, operation) => {
   const x = Big(numberOne);
   const y = Big(numberTwo);
   let result = null;
+
   switch (operation) {
     case operations.sum:
       result = x.plus(y);
@@ -18,7 +19,12 @@ const operate = (numberOne, numberTwo, operation) => {
       result = x.times(y);
       break;
     case operations.division:
-      result = y !== 0 ? x.div(y) : 'infinity';
+      if (y.toString() !== '0') {
+        result = x.div(y);
+        break;
+      } else {
+        result = 'Error';
+      }
       break;
     case operations.percentage:
       result = x.div(100).times(y);
