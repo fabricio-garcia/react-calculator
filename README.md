@@ -20,6 +20,9 @@
   <a href="https://www.microverse.org/">
     <img src="/src/images/microverse.png" alt="Logo" width="80" height="80">
   </a>
+    <a href="https://react-calc-microverse.herokuapp.com/">
+    <img src="/src/images/logo.png" alt="Logo">
+  </a>
 
   <h1 align="center">
 	React Calculator
