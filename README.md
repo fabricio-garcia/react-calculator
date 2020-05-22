@@ -20,13 +20,14 @@
   <a href="https://www.microverse.org/">
     <img src="/src/images/microverse.png" alt="Logo" width="80" height="80">
   </a>
-    <a href="https://react-calc-microverse.herokuapp.com/">
-    <img src="/src/images/logo.png" alt="Logo">
-  </a>
-
   <h1 align="center">
 	React Calculator
   </h1>
+  <div text-align: center>
+    <a href="https://react-calc-microverse.herokuapp.com/">
+    <img src="/src/images/logo.png" alt="Logo">
+  </div>
+  </a>
 
   <p align="center">
     A calculator built with React and the create-react-app toolchain
